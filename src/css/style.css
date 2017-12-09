@@ -7,7 +7,7 @@
 }
 .nav-bar.fixed-top {
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   right: 0;
@@ -282,4 +282,77 @@
 }
 .side-item .content .cloud-tag:hover {
   border: 1px solid #000;
+}
+.footer {
+  padding: 30px 0;
+  background-color: #fff;
+  margin-top: 30px;
+  border-top: 1px solid #f3f7f9;
+}
+.footer .copy-right {
+  font-size: 14px;
+  color: #999;
+}
+.margin-0 {
+  margin-top: 0;
+}
+.article-banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.article-banner canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.article-banner .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+.article-banner .content .title {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.article-banner .content .cate {
+  text-align: center;
+  margin-top: 100px;
+}
+.article-banner .content .cate a {
+  display: inline-block;
+  padding: 2px 10px;
+  background-color: #000;
+  color: #fff;
+}
+.article-banner .content .cate a:hover {
+  color: #fff;
+}
+.article-banner .content .about {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  text-align: center;
+}
+.article-content {
+  color: #717171;
+  text-align: justify;
+  text-indent: 2em;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #f9f9f9;
+}
+.article-content img {
+  display: block;
+  margin: 10px 0;
 }
